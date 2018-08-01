@@ -20,5 +20,5 @@ function currentLine (katzDeliLine) {
     newLineString.push(` ${i + 1}. ${katzDeliLine[i]}`);
   }
   
-  return `The line is currently: ${newLineString}`;
+  return `The line is currently: ${newLineString.join(}`;
 }
